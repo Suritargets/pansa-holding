@@ -22,7 +22,7 @@ const navItems = [
   { label: "Services", href: "/services", dropdown: true },
   { label: "Companies", href: "/companies" },
   { label: "Sustainability", href: "/sustainability" },
-  { label: "Events", href: "/#about" },
+  { label: "Events", href: "/events" },
 ];
 
 export default function Header() {
