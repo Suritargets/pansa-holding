@@ -41,12 +41,14 @@ const accordions = [
   },
   {
     title: "Standards & Certifications",
+    intro: "Our business model of industrial development, services, maintenance & manufacturing is developed and maintained through:",
     items: [
       "Alliance with strategic business partners worldwide",
       "Strong institutional structure through personnel competency development",
       "Integration of technology and continuous improvement by innovation",
-      "ASME, NBI and API certified (Hartford Steam Boiler authorized)",
-      "ISO 9001:2015 and ISO 14001:2015 (KIWA authorized)",
+      "Implementing international quality standards to obtain qualifications and certifications e.g.:",
+      "A.S.M.E. standards, N.B.I. standards, A.P.I. standards (Authorized by Hartford Steam Boiler inspection & insurance company)",
+      "ISO 9001: 2015, ISO 14001: 2015 (Authorized by KIWA)",
     ],
   },
   {
@@ -99,7 +101,7 @@ function Carousel() {
   );
 }
 
-function Accordion({ title, items, content }: { title: string; items?: string[]; content?: string }) {
+function Accordion({ title, items, content, intro }: { title: string; items?: string[]; content?: string; intro?: string }) {
   const [open, setOpen] = useState(false);
   return (
     <div className="border border-gray-200 mb-2">
@@ -119,6 +121,7 @@ function Accordion({ title, items, content }: { title: string; items?: string[];
       </button>
       {open && (
         <div className="px-5 py-4 bg-white">
+          {intro && <p className="text-sm text-gray-600 leading-relaxed mb-3">{intro}</p>}
           {items ? (
             <ul className="space-y-2">
               {items.map((item, i) => (
@@ -206,7 +209,7 @@ export default function HowWeWorkPage() {
                 </p>
                 <div>
                   {accordions.map((acc, i) => (
-                    <Accordion key={i} title={acc.title} items={acc.items} content={acc.content} />
+                    <Accordion key={i} title={acc.title} items={acc.items} content={acc.content} intro={acc.intro} />
                   ))}
                 </div>
               </div>
