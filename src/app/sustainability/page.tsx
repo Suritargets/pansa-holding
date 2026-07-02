@@ -8,19 +8,19 @@ const BASE2 = "https://pansaholding.com/wp-content/uploads/2023/11/";
 
 const blogPosts = [
   {
-    image: `${BASE2}27.jpeg`,
+    image: `${BASE2}Maranatha-Songfestival-2019.jpg`,
     category: "Sustainability",
     title: "Maranatha Songfestival 2019",
     href: "#",
   },
   {
-    image: `${BASE2}44.jpeg`,
+    image: `${BASE2}DSC05443-1024x575-1.jpg`,
     category: "Sustainability",
     title: "Music Education Center (Muziek Educatie Lelydorp & Omgeving – MELO)",
     href: "#",
   },
   {
-    image: `${BASE2}22.jpeg`,
+    image: `${BASE2}1-1024x575-1-1.jpg`,
     category: "Roadshow",
     title: "Pansa Road Show August 2017",
     href: "#",
@@ -78,7 +78,7 @@ export default function SustainabilityPage() {
                 {/* Main image */}
                 <div className="relative w-full overflow-hidden mb-6" style={{ height: "320px" }}>
                   <Image
-                    src={`${BASE2}4.jpeg`}
+                    src={`${BASE2}DSC09120-1024x575-1.jpg`}
                     alt="Sustainable Community Development"
                     fill
                     className="object-cover"
