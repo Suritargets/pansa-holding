@@ -21,7 +21,7 @@ const navItems = [
   { label: "How We Work", href: "/how-we-work" },
   { label: "Services", href: "/services", dropdown: true },
   { label: "Companies", href: "/companies" },
-  { label: "Sustainability", href: "/#about" },
+  { label: "Sustainability", href: "/sustainability" },
   { label: "Events", href: "/#about" },
 ];
 
