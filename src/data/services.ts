@@ -83,7 +83,7 @@ export const services: Service[] = [
     shortTitle: "Health, Safety, Environment",
     title: "Health, Safety, Environment",
     image: `${BASE}s8.jpg`,
-    intro: "Pansa Group of Companies is committed to work according to the Health, Safety and Environmental standards, policies and regulations. Injuries occurring during our work are preventable when the work is well planned and safety policies and rules are followed.",
+    intro: "Pansa Group of Companies is committed to work according to the Health, Safety and Environmental standards, policies and regulations. Injuries occurring during our work are preventable when the work is well planned and safety policies and rules are followed.\n\nAt PANSA GROUP OF COMPANIES N.V., we recognize that a commitment to Health, Safety, and Environment (HSE) is not only a legal and ethical obligation but a fundamental aspect of sustainable business practices. Our comprehensive HSE solutions are designed to safeguard your workforce, protect the environment, and ensure compliance with the highest industry standards.",
     bullets: [
       "HSE policy implementation and management",
       "Risk assessment and hazard identification",
@@ -92,12 +92,12 @@ export const services: Service[] = [
       "Emergency response planning",
     ],
     sections: [
-      { heading: "Occupational Health and Safety", text: "We prioritize the well-being of our workforce by implementing robust occupational health and safety programs, ensuring a safe working environment for all employees and contractors." },
-      { heading: "Environmental Sustainability", text: "PANSA GROUP OF COMPANIES N.V. is committed to minimizing its environmental footprint through sustainable practices, waste management, and adherence to environmental regulations." },
-      { heading: "Regulatory Compliance", text: "Our team stays abreast of the latest HSE regulations and standards, providing expert guidance to ensure your operations remain compliant and mitigate legal risks." },
-      { heading: "HSE Training and Awareness", text: "We offer comprehensive HSE training programs to educate employees and contractors, promoting a culture of safety and environmental responsibility throughout your organization." },
-      { heading: "Incident Investigation and Risk Management", text: "In the event of incidents or near-misses, our experienced team conducts thorough investigations to identify root causes and implement corrective measures to prevent recurrence." },
-      { heading: "HSE Audits and Assessments", text: "We conduct comprehensive HSE audits and assessments to evaluate the effectiveness of your current practices and identify areas for improvement." },
+      { heading: "Occupational Health and Safety", text: "Prioritizing the well-being of your workforce is paramount. PANSA GROUP OF COMPANIES N.V. provides tailored Occupational Health and Safety programs that go beyond compliance. From risk assessments to safety training and emergency response planning, our HSE experts work collaboratively with your team to create a secure and healthy work environment." },
+      { heading: "Environmental Sustainability", text: "Our commitment to environmental stewardship is evident in every aspect of our operations. PANSA GROUP OF COMPANIES N.V. integrates sustainable practices into our HSE solutions, helping clients minimize their environmental footprint. From waste reduction strategies to energy-efficient processes, we aim to contribute to a cleaner, greener future." },
+      { heading: "Regulatory Compliance", text: "Navigating the complex landscape of health, safety, and environmental regulations can be challenging. PANSA GROUP OF COMPANIES N.V. stays abreast of the latest legal requirements, ensuring that your operations align with local and international standards. Our HSE consultants work to mitigate risks, avoid penalties, and promote a culture of compliance within your organization." },
+      { heading: "HSE Training and Awareness", text: "Empower your workforce with the knowledge and skills needed to maintain a safe and environmentally conscious workplace. PANSA GROUP OF COMPANIES N.V. offers comprehensive HSE training programs, covering topics such as hazard identification, emergency response, and sustainable practices. Investing in employee awareness enhances overall safety and contributes to a culture of responsibility." },
+      { heading: "Incident Investigation and Risk Management", text: "In the event of incidents, prompt and thorough investigation is crucial. PANSA GROUP OF COMPANIES N.V. excels in incident investigation and risk management, identifying root causes, implementing corrective actions, and developing preventive strategies. Our proactive approach aims to minimize the likelihood of incidents, protecting both personnel and assets." },
+      { heading: "HSE Audits and Assessments", text: "Regular assessments are essential to maintaining the effectiveness of HSE programs. PANSA GROUP OF COMPANIES N.V. conducts thorough HSE audits to evaluate the performance of existing systems, identify areas for improvement, and ensure ongoing compliance. Our assessments provide valuable insights for optimizing HSE strategies and enhancing overall organizational resilience." },
     ],
   },
   {
