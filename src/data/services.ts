@@ -105,7 +105,7 @@ export const services: Service[] = [
     shortTitle: "Manufacturing, Repair and Alteration of Power Boilers & Pressure Vessels",
     title: "Manufacturing, Repair and Alteration of Power Boilers & Pressure Vessels",
     image: `${BASE}s1.jpeg`,
-    intro: "PANSA GROUP OF COMPANIES N.V. specializes in the manufacturing, repair, and alteration of power boilers and pressure vessels, delivering high-quality solutions that meet industry standards and regulatory requirements.",
+    intro: "PANSA GROUP OF COMPANIES N.V. stands at the forefront of the industry, delivering unparalleled expertise in the manufacturing, repair, and alteration of power boilers and pressure vessels. With a commitment to precision engineering, safety, and reliability, we offer comprehensive solutions tailored to meet the unique requirements of our clients.",
     bullets: [
       "Pressure vessel & power boiler",
       "Tank construction, erection & repairs",
@@ -114,12 +114,12 @@ export const services: Service[] = [
       "Shafts & sleeves, valve plates, stems, discs & seats",
     ],
     sections: [
-      { heading: "Manufacturing Excellence", text: "Our state-of-the-art manufacturing facility is equipped with advanced technology and skilled craftsmen to produce power boilers and pressure vessels of the highest quality." },
-      { heading: "Repair and Restoration", text: "We offer expert repair services for damaged or worn power boilers and pressure vessels, restoring them to their original specifications and extending their operational life." },
-      { heading: "Alteration for Enhanced Performance", text: "As operational requirements evolve, we provide alteration services to modify existing power boilers and pressure vessels to meet new standards or enhance performance." },
-      { heading: "Compliance and Safety Assurance", text: "All our manufacturing, repair, and alteration activities adhere to strict industry codes such as ASME, ensuring compliance and safety in every project we undertake." },
-      { heading: "Quality Control", text: "Rigorous quality control measures are implemented throughout the manufacturing and repair process, guaranteeing that every product meets or exceeds client expectations and industry standards." },
-      { heading: "Environmental Stewardship", text: "We are committed to environmental responsibility, employing eco-friendly practices in our manufacturing and repair processes to minimize our impact on the environment." },
+      { heading: "Manufacturing Excellence", text: "Our state-of-the-art manufacturing facilities are equipped with cutting-edge technology and staffed by a team of skilled engineers and craftsmen. From concept to completion, PANSA GROUP OF COMPANIES N.V. ensures the highest standards in the fabrication of power boilers and pressure vessels. Our manufacturing process prioritizes quality, efficiency, and adherence to industry codes and standards." },
+      { heading: "Repair and Restoration", text: "Extend the lifespan of your power boilers and pressure vessels with our expert repair and restoration services. PANSA GROUP OF COMPANIES N.V. specializes in the diagnosis and resolution of issues, implementing precise solutions to ensure optimal performance and safety. Our experienced technicians conduct thorough assessments to identify areas of concern and execute timely repairs, minimizing downtime and maximizing efficiency." },
+      { heading: "Alteration for Enhanced Performance", text: "In the dynamic landscape of industrial operations, adaptability is key. PANSA GROUP OF COMPANIES N.V. offers alteration services to enhance the performance and efficiency of power boilers and pressure vessels. Whether it's upgrading components, implementing advanced technologies, or optimizing design for increased capacity, our alteration services are tailored to meet the evolving needs of your operations." },
+      { heading: "Compliance and Safety Assurance", text: "Safety is paramount in the manufacturing, repair, and alteration of power boilers and pressure vessels. PANSA GROUP OF COMPANIES N.V. is committed to strict adherence to industry regulations and safety standards. Our processes and procedures prioritize compliance, ensuring that your equipment meets or exceeds the necessary codes and guidelines." },
+      { heading: "Quality Control", text: "Quality control is ingrained in every step of our manufacturing and repair processes. Rigorous inspections and testing procedures are conducted to guarantee the integrity and reliability of our products. PANSA GROUP OF COMPANIES N.V. is dedicated to delivering solutions that not only meet but exceed the expectations of our clients." },
+      { heading: "Environmental Stewardship", text: "In addition to ensuring operational excellence, PANSA GROUP OF COMPANIES N.V. is committed to environmental responsibility. Our manufacturing, repair, and alteration processes incorporate sustainable practices to minimize environmental impact, aligning with global initiatives for a greener, more sustainable future." },
     ],
   },
   {
