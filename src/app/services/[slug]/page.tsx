@@ -60,9 +60,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               {/* Main content */}
               <div className="lg:col-span-2">
                 {/* Intro */}
-                <p className="text-gray-600 leading-relaxed mb-8 text-base">
-                  {service.intro}
-                </p>
+                <div className="mb-8 space-y-4">
+                  {service.intro.split("\n\n").map((p, i) => (
+                    <p key={i} className="text-gray-600 leading-relaxed text-base">{p}</p>
+                  ))}
+                </div>
 
                 {/* Service image */}
                 <div className="relative w-full mb-10 overflow-hidden" style={{ height: "320px" }}>

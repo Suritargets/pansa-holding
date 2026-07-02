@@ -146,7 +146,7 @@ export const services: Service[] = [
     shortTitle: "Engineering, Procurement, Construction & Maintenance",
     title: "Engineering, Procurement, Construction & Maintenance (EPCM)",
     image: `${BASE}s3.jpg`,
-    intro: "We are flexible, creative, inquisitive and innovative. We constantly develop and improve the standards of excellence in everything we do, while we incorporate new ideas within our services and products.",
+    intro: "We are flexible, creative, inquisitive and innovative. We constantly develop and improve the standards of excellence in everything we do, while we incorporate new ideas within our services and products.\n\nPansa Group of Companies N.V. is your strategic partner in achieving seamless project execution through our comprehensive Engineering, Procurement, Construction & Maintenance (EPCM) services. From conceptualization to maintenance, we bring a wealth of expertise, cutting-edge technology, and a commitment to excellence to every phase of your project.",
     bullets: [
       "Integrated engineering and project management",
       "Procurement of specialized industrial equipment",
@@ -155,12 +155,13 @@ export const services: Service[] = [
       "HSE compliance throughout all project phases",
     ],
     sections: [
-      { heading: "Engineering Excellence", text: "Our team of seasoned engineers brings a wealth of experience to every project, providing innovative and efficient solutions that meet the highest standards of quality and performance." },
-      { heading: "Procurement Solutions", text: "We leverage our extensive network of trusted suppliers and vendors to source high-quality materials and equipment at competitive prices, ensuring timely project delivery." },
-      { heading: "Construction Management", text: "Our construction management team oversees all phases of the construction process, from planning and design to execution and completion, ensuring projects are delivered on time and within budget." },
-      { heading: "Maintenance and Asset Management", text: "We provide comprehensive maintenance and asset management services to extend the life of your assets, optimize their performance, and reduce overall lifecycle costs." },
-      { heading: "Health, Safety, and Environmental Compliance", text: "Throughout every phase of the EPCM process, we prioritize health, safety, and environmental compliance to ensure the well-being of our workforce and minimize our impact on the environment." },
-      { heading: "Customized Solutions", text: "We understand that every project is unique. Our team works closely with clients to develop tailored EPCM solutions that meet their specific needs, timelines, and budgetary constraints." },
+      { heading: "Engineering Excellence", text: "Our experienced engineering teams specialize in translating concepts into reality. Pansa Group of Companies N.V. offers a full spectrum of engineering services, including feasibility studies, detailed engineering design, and project planning. Whether it's civil, mechanical, electrical, or process engineering, we deliver innovative solutions that meet and exceed industry standards." },
+      { heading: "Procurement Solutions", text: "Efficient procurement is vital for project success. Pansa Group of Companies N.V. employs a strategic approach to procurement, ensuring timely and cost-effective sourcing of materials and equipment. Our extensive network of suppliers and global procurement expertise enables us to secure the highest quality components, adhering to project specifications and budget constraints." },
+      { heading: "Construction Management", text: "Seamless construction execution is the cornerstone of our EPCM services. Pansa Group of Companies N.V. provides comprehensive construction management solutions, overseeing every aspect of the project from groundbreaking to completion. Our skilled project managers, supervisors, and construction teams work in harmony to ensure that projects are delivered on time, within budget, and to the highest quality standards." },
+      { heading: "Maintenance and Asset Management", text: "Post-construction, our commitment to your success continues through our maintenance and asset management services. Pansa Group of Companies N.V. offers proactive maintenance programs, asset integrity management, and ongoing support to maximize the lifespan and performance of your facilities. Our focus on reliability ensures that your assets consistently operate at peak efficiency." },
+      { heading: "Health, Safety, and Environmental Compliance", text: "Safety is paramount in every aspect of our EPCM services. Pansa Group of Companies N.V. prioritizes the well-being of our personnel and the environment through rigorous safety protocols and compliance with industry standards. Our commitment to HSE extends to every phase of the project, contributing to a culture of safety and sustainability." },
+      { heading: "Project Optimization", text: "Pansa Group of Companies N.V. is dedicated to optimizing project performance. Through advanced project management methodologies, efficient resource allocation, and continuous monitoring, we identify opportunities for improvement and innovation. Our goal is to enhance project efficiency, reduce costs, and deliver exceptional value to our clients." },
+      { heading: "Customized Solutions", text: "Recognizing that each project is unique, our EPCM services are tailored to meet the specific needs and objectives of our clients. Whether you are embarking on a new construction project or requiring ongoing maintenance for existing facilities, Pansa Group of Companies N.V. provides customized solutions that align with your vision and goals." },
     ],
   },
   {
