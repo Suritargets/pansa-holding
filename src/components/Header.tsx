@@ -128,7 +128,7 @@ export default function Header() {
             )}
             {/* Contact Us button */}
             <Link
-              href="/#contact"
+              href="/contact"
               style={{ backgroundColor: "#7f9e28" }}
               className="ml-4 flex items-center gap-2 text-white text-xs font-bold px-4 py-3 hover:opacity-90 transition-opacity uppercase tracking-wide"
             >
