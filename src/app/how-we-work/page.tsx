@@ -53,8 +53,14 @@ const accordions = [
   },
   {
     title: "Customers",
-    content:
-      "Pansa Group of Companies N.V. is committed to serving our customers, by providing them with quality, professional and timely services. Our clients include alumina plants, gold mining operations, energy facilities, petrochemical industries, and international design & contracting firms.",
+    intro: "Pansa Group of Company N.V. is committed to serving our customers, by providing them with quality, professional and timely services at reasonable cost to meet their requirements and expectations.\n\nOur customers include:",
+    items: [
+      "Industrial plants in the alumina sector",
+      "Industrial plants in the gold sector",
+      "Industrial plants in the energy sector",
+      "The petrochemical industry",
+      "The local and foreign design and contracting firms",
+    ],
   },
 ];
 
@@ -121,7 +127,9 @@ function Accordion({ title, items, content, intro }: { title: string; items?: st
       </button>
       {open && (
         <div className="px-5 py-4 bg-white">
-          {intro && <p className="text-sm text-gray-600 leading-relaxed mb-3">{intro}</p>}
+          {intro && intro.split("\n\n").map((p, i) => (
+            <p key={i} className="text-sm text-gray-600 leading-relaxed mb-3">{p}</p>
+          ))}
           {items ? (
             <ul className="space-y-2">
               {items.map((item, i) => (
