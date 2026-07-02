@@ -20,7 +20,7 @@ const navItems = [
   { label: "About Us", href: "/about" },
   { label: "How We Work", href: "/how-we-work" },
   { label: "Services", href: "/services", dropdown: true },
-  { label: "Companies", href: "/#about" },
+  { label: "Companies", href: "/companies" },
   { label: "Sustainability", href: "/#about" },
   { label: "Events", href: "/#about" },
 ];
