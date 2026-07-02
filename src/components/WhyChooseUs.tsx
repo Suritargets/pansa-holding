@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
           </h2>
           <div className="w-16 h-1 mx-auto mb-6" style={{ backgroundColor: "#7f9e28" }} />
           <p className="text-gray-300 text-base leading-relaxed max-w-2xl mx-auto">
-            Choose Pansa Holding N.V. for a commitment to excellence, a team of certified
+            Choose PANSA GROUP OF COMPANIES N.V. for a commitment to excellence, a team of certified
             professionals, and industry-leading expertise, ensuring that your projects benefit
             from innovation, precision, and the proven success of our comprehensive industrial services.
           </p>
@@ -128,7 +128,7 @@ export default function WhyChooseUs() {
               </h3>
               <div className="w-12 h-1 mb-5" style={{ backgroundColor: "#7f9e28" }} />
               <p className="text-gray-600 text-sm leading-relaxed mb-8">
-                With a wealth of industry expertise, Pansa Holding N.V. stands as a trusted
+                With a wealth of industry expertise, PANSA GROUP OF COMPANIES N.V. stands as a trusted
                 authority, providing clients with unparalleled insight, innovation, and strategic
                 solutions to address the most complex challenges in diverse industrial sectors.
               </p>

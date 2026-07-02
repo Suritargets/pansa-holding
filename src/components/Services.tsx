@@ -151,7 +151,7 @@ export default function Services() {
             <div className="relative z-10 p-8 flex flex-col items-center justify-center text-center h-full" style={{ minHeight: "220px" }}>
               <h3 className="text-white font-bold uppercase text-base mb-4">Explore More Services</h3>
               <p className="text-gray-300 text-xs leading-relaxed mb-6">
-                Pansa Holding N.V. offers a diverse range of services, from precise industrial maintenance to advanced vocational training, all geared towards ensuring your operational success
+                PANSA GROUP OF COMPANIES N.V. offers a diverse range of services, from precise industrial maintenance to advanced vocational training, all geared towards ensuring your operational success
               </p>
               <a
                 href="#contact"

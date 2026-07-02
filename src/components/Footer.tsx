@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 const col1 = [
   { label: "About Pansa Group of Companies N.V.", href: "#about" },
@@ -91,7 +91,7 @@ export default function Footer() {
           </div>
 
           {/* Nav columns */}
-          <FooterCol title="PANSA HOLDING N.V." links={col1} />
+          <FooterCol title="PANSA GROUP OF COMPANIES N.V." links={col1} />
           <FooterCol title="PANSA MACHINE SHOP N.V." links={col2} />
           <FooterCol title="CCC H. PANSA & SONS N.V." links={col3} />
 

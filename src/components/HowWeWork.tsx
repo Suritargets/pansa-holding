@@ -3,7 +3,7 @@
 const steps = [
   {
     title: "Select Your Services",
-    description: "Selecting Pansa Holding N.V. ensures access to a range of top-tier services, characterized by excellence, innovation, and a commitment to operational success.",
+    description: "Selecting Pansa Group of Companies N.V. ensures access to a range of top-tier services, characterized by excellence, innovation, and a commitment to operational success.",
     icon: (
       /* wrench / tools cross */
       <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -13,7 +13,7 @@ const steps = [
   },
   {
     title: "Complete Your Data",
-    description: "Complete your data seamlessly with Pansa Holding N.V., ensuring accuracy, efficiency, and comprehensive solutions for your information needs.",
+    description: "Complete your data seamlessly with Pansa Group of Companies N.V., ensuring accuracy, efficiency, and comprehensive solutions for your information needs.",
     icon: (
       /* clipboard / form */
       <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -23,7 +23,7 @@ const steps = [
   },
   {
     title: "Make an Appointment",
-    description: "Make an appointment with us at Pansa Holding N.V. to explore tailored solutions, discuss your industrial needs, and embark on a journey towards operational excellence.",
+    description: "Make an appointment with us at Pansa Group of Companies N.V. to explore tailored solutions, discuss your industrial needs, and embark on a journey towards operational excellence.",
     icon: (
       /* calendar with gear */
       <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ const steps = [
   },
   {
     title: "Get Amazing Services",
-    description: "Experience excellence firsthand with Pansa Holding N.V. â€“ where our commitment to delivering amazing services ensures your industrial needs are met with precision and innovation.",
+    description: "Experience excellence firsthand with Pansa Group of Companies N.V. â€“ where our commitment to delivering amazing services ensures your industrial needs are met with precision and innovation.",
     icon: (
       /* podium / award */
       <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">

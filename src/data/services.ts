@@ -1,4 +1,4 @@
-const BASE = "https://pansaholding.com/wp-content/uploads/2023/10/";
+﻿const BASE = "https://pansaholding.com/wp-content/uploads/2023/10/";
 
 export interface ServiceSection {
   heading: string;
@@ -21,7 +21,7 @@ export const services: Service[] = [
     shortTitle: "Industrial Maintenance and Plant Operation Services",
     title: "Industrial Maintenance and Plant Operation Services",
     image: `${BASE}s5.jpeg`,
-    intro: "At Pansa Holding N.V., we understand that the heart of any industrial operation lies in its maintenance and efficient plant operation. Our industrial maintenance services are designed to proactively address the unique challenges of your equipment and infrastructure.",
+    intro: "At PANSA GROUP OF COMPANIES N.V., we understand that the heart of any industrial operation lies in its maintenance and efficient plant operation. Our industrial maintenance services are designed to proactively address the unique challenges of your equipment and infrastructure.",
     bullets: [
       "Preventive & risk based maintenance",
       "Machinery inspection, repair, upgrade or modification",
@@ -31,11 +31,11 @@ export const services: Service[] = [
     ],
     sections: [
       { heading: "Comprehensive Maintenance Solutions", text: "Our industrial maintenance services are designed to proactively address the unique challenges of your equipment and infrastructure, ensuring longevity and optimal performance." },
-      { heading: "Plant Operation Excellence", text: "Achieving operational excellence is key to sustained success. Pansa Holding N.V. partners with you to streamline and enhance your plant operations." },
+      { heading: "Plant Operation Excellence", text: "Achieving operational excellence is key to sustained success. PANSA GROUP OF COMPANIES N.V. partners with you to streamline and enhance your plant operations." },
       { heading: "Customized Maintenance Programs", text: "Recognizing that every industry and facility has distinct needs, we tailor our maintenance programs to align with your specific requirements, minimizing downtime and maximizing efficiency." },
-      { heading: "Emergency Response", text: "In the dynamic world of industry, emergencies can arise at any time. Pansa Holding N.V. stands ready with a rapid response team equipped to handle unforeseen situations swiftly and effectively." },
+      { heading: "Emergency Response", text: "In the dynamic world of industry, emergencies can arise at any time. PANSA GROUP OF COMPANIES N.V. stands ready with a rapid response team equipped to handle unforeseen situations swiftly and effectively." },
       { heading: "Technology-Driven Solutions", text: "We leverage the latest technologies, including predictive analytics and condition monitoring, to identify potential issues before they become critical, saving time and resources." },
-      { heading: "Compliance and Safety", text: "Pansa Holding N.V. is dedicated to upholding the highest standards of safety and compliance, ensuring that all maintenance activities adhere to industry regulations and best practices." },
+      { heading: "Compliance and Safety", text: "PANSA GROUP OF COMPANIES N.V. is dedicated to upholding the highest standards of safety and compliance, ensuring that all maintenance activities adhere to industry regulations and best practices." },
     ],
   },
   {
@@ -43,7 +43,7 @@ export const services: Service[] = [
     shortTitle: "Human Resource Services",
     title: "Human Resource Services",
     image: `${BASE}s6.jpeg`,
-    intro: "Pansa Holding N.V. offers comprehensive Human Resource Services designed to empower businesses with the talent and workforce management solutions they need to thrive in a competitive landscape.",
+    intro: "PANSA GROUP OF COMPANIES N.V. offers comprehensive Human Resource Services designed to empower businesses with the talent and workforce management solutions they need to thrive in a competitive landscape.",
     bullets: [
       "Construction Management Services: Managers, Supervisors, Foremen, Coordinators for all construction works",
       "Field Labor Force: Equipment Operators, Mechanics, Drillers, Warehouse personnel, Carpenters, Steel Workers, Masons, Plate & Pipe Welders, Pipe Fitters, Plumbers, Electrical & Instrumentation Technicians",
@@ -62,7 +62,7 @@ export const services: Service[] = [
     shortTitle: "Technical Vocational Training & Qualification",
     title: "Technical Vocational Training & Qualification",
     image: `${BASE}s7.jpg`,
-    intro: "Quality technical vocational training and demand-driven programs & Qualification (ASME, AWS, API, NIL, SBB, CANTA-CVQ, VCA). Pansa Holding N.V. is committed to empowering individuals and organizations with the skills and qualifications needed to excel in technical and vocational fields.",
+    intro: "Quality technical vocational training and demand-driven programs & Qualification (ASME, AWS, API, NIL, SBB, CANTA-CVQ, VCA). PANSA GROUP OF COMPANIES N.V. is committed to empowering individuals and organizations with the skills and qualifications needed to excel in technical and vocational fields.",
     bullets: [
       "HSE Training programs",
       "ISO Training programs",
@@ -92,7 +92,7 @@ export const services: Service[] = [
     ],
     sections: [
       { heading: "Occupational Health and Safety", text: "We prioritize the well-being of our workforce by implementing robust occupational health and safety programs, ensuring a safe working environment for all employees and contractors." },
-      { heading: "Environmental Sustainability", text: "Pansa Holding N.V. is committed to minimizing its environmental footprint through sustainable practices, waste management, and adherence to environmental regulations." },
+      { heading: "Environmental Sustainability", text: "PANSA GROUP OF COMPANIES N.V. is committed to minimizing its environmental footprint through sustainable practices, waste management, and adherence to environmental regulations." },
       { heading: "Regulatory Compliance", text: "Our team stays abreast of the latest HSE regulations and standards, providing expert guidance to ensure your operations remain compliant and mitigate legal risks." },
       { heading: "HSE Training and Awareness", text: "We offer comprehensive HSE training programs to educate employees and contractors, promoting a culture of safety and environmental responsibility throughout your organization." },
       { heading: "Incident Investigation and Risk Management", text: "In the event of incidents or near-misses, our experienced team conducts thorough investigations to identify root causes and implement corrective measures to prevent recurrence." },
@@ -104,7 +104,7 @@ export const services: Service[] = [
     shortTitle: "Manufacturing, Repair and Alteration of Power Boilers & Pressure Vessels",
     title: "Manufacturing, Repair and Alteration of Power Boilers & Pressure Vessels",
     image: `${BASE}s1.jpeg`,
-    intro: "Pansa Holding N.V. specializes in the manufacturing, repair, and alteration of power boilers and pressure vessels, delivering high-quality solutions that meet industry standards and regulatory requirements.",
+    intro: "PANSA GROUP OF COMPANIES N.V. specializes in the manufacturing, repair, and alteration of power boilers and pressure vessels, delivering high-quality solutions that meet industry standards and regulatory requirements.",
     bullets: [
       "Pressure vessel & power boiler",
       "Tank construction, erection & repairs",
@@ -126,7 +126,7 @@ export const services: Service[] = [
     shortTitle: "Fabrication of Steel Construction, Storage Tanks, Silo's, Cyclones",
     title: "Fabrication of Steel Construction, Storage Tanks, Silo's, Cyclones",
     image: `${BASE}s2.jpeg`,
-    intro: "Pansa Holding N.V. is a leading provider of steel fabrication services, specializing in the construction of steel structures, storage tanks, silos, and cyclones for diverse industrial applications.",
+    intro: "PANSA GROUP OF COMPANIES N.V. is a leading provider of steel fabrication services, specializing in the construction of steel structures, storage tanks, silos, and cyclones for diverse industrial applications.",
     bullets: [
       "Steel and pipeline modification",
       "Pontoon construction",
@@ -136,7 +136,7 @@ export const services: Service[] = [
       { heading: "Precision Steel Construction", text: "Our skilled team of engineers and fabricators deliver precision steel constructions tailored to your project specifications, ensuring structural integrity and durability." },
       { heading: "Storage Tanks", text: "We design and fabricate a wide range of storage tanks, including fixed roof, floating roof, and cone-bottom tanks, to meet your storage requirements for liquids, chemicals, and other materials." },
       { heading: "Silos for Optimal Material Handling", text: "Our custom-designed silos are engineered to optimize material handling, storage, and distribution, enhancing operational efficiency across various industries." },
-      { heading: "Cyclones for Air Pollution Control", text: "Pansa Holding N.V. manufactures high-efficiency cyclones for industrial air pollution control, helping your operations meet environmental standards and regulations." },
+      { heading: "Cyclones for Air Pollution Control", text: "PANSA GROUP OF COMPANIES N.V. manufactures high-efficiency cyclones for industrial air pollution control, helping your operations meet environmental standards and regulations." },
       { heading: "Quality Assurance and Compliance", text: "Our fabrication processes adhere to strict quality control measures and industry standards, ensuring that all our steel products meet or exceed client expectations and regulatory requirements." },
       { heading: "Project Management Excellence", text: "From design to delivery, our project management team ensures seamless execution, on-time delivery, and cost-effective solutions for your steel fabrication needs." },
     ],
@@ -168,7 +168,7 @@ export const services: Service[] = [
     shortTitle: "Valve & Pump Maintenance and Machine Shop Works",
     title: "Valve & Pump Maintenance and Machine Shop Works",
     image: `${BASE}s4.jpeg`,
-    intro: "Pansa Holding N.V. offers specialized valve & pump maintenance and machine shop work services to keep your critical equipment in optimal operating condition.",
+    intro: "PANSA GROUP OF COMPANIES N.V. offers specialized valve & pump maintenance and machine shop work services to keep your critical equipment in optimal operating condition.",
     bullets: [
       "Control, butterfly, ball, plug and clarkson valves revision",
       "Pressure relief valves, testing and repairs of parts",

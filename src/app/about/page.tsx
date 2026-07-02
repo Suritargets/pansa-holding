@@ -312,7 +312,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="w-12 h-1 mb-6" style={{ backgroundColor: "#7f9e28" }} />
                 <p className="text-gray-600 text-sm leading-relaxed mb-8">
-                  People should choose Pansa Holding N.V. for our unwavering commitment to excellence, industry-leading expertise, innovative solutions, and a proven track record of delivering unparalleled results in every facet of our comprehensive industrial services.
+                  People should choose PANSA GROUP OF COMPANIES N.V. for our unwavering commitment to excellence, industry-leading expertise, innovative solutions, and a proven track record of delivering unparalleled results in every facet of our comprehensive industrial services.
                 </p>
                 <div className="flex gap-10">
                   <CircularProgress pct={63} label="Certified Team" />

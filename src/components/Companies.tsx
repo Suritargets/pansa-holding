@@ -37,7 +37,7 @@ export default function Companies() {
           </h2>
           <div className="w-16 h-1 mx-auto mb-6" style={{ backgroundColor: "#7f9e28" }} />
           <p className="text-gray-500 max-w-2xl mx-auto">
-            Pansa Holding N.V. comprises three specialized subsidiary companies, each with
+            PANSA GROUP OF COMPANIES N.V. comprises three specialized subsidiary companies, each with
             their own area of expertise and internationally recognized certifications.
           </p>
         </div>

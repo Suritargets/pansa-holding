@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Oswald, Open_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -17,7 +17,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Pansa Holding N.V. - The Moving Force of The Industries",
+  title: "PANSA GROUP OF COMPANIES N.V. - The Moving Force of The Industries",
   description:
     "Pansa Group of Companies N.V. - Leaders in field of services in Suriname & the region. Engineering, Procurement, Construction & Maintenance, Fabrication, Human Resource Services and more.",
 };
