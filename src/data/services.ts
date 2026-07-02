@@ -21,7 +21,7 @@ export const services: Service[] = [
     shortTitle: "Industrial Maintenance and Plant Operation Services",
     title: "Industrial Maintenance and Plant Operation Services",
     image: `${BASE}s5.jpeg`,
-    intro: "At PANSA GROUP OF COMPANIES N.V., we understand that the heart of any industrial operation lies in its maintenance and efficient plant operation. Our industrial maintenance services are designed to proactively address the unique challenges of your equipment and infrastructure.",
+    intro: "At PANSA GROUP OF COMPANIES N.V., we understand that the heart of any industrial operation lies in its maintenance and efficient plant operation. Our dedicated team of experts is committed to ensuring the reliability, safety, and optimal performance of your industrial facilities.",
     bullets: [
       "Preventive & risk based maintenance",
       "Machinery inspection, repair, upgrade or modification",
@@ -30,12 +30,12 @@ export const services: Service[] = [
       "Inspection supervision & source inspection",
     ],
     sections: [
-      { heading: "Comprehensive Maintenance Solutions", text: "Our industrial maintenance services are designed to proactively address the unique challenges of your equipment and infrastructure, ensuring longevity and optimal performance." },
-      { heading: "Plant Operation Excellence", text: "Achieving operational excellence is key to sustained success. PANSA GROUP OF COMPANIES N.V. partners with you to streamline and enhance your plant operations." },
-      { heading: "Customized Maintenance Programs", text: "Recognizing that every industry and facility has distinct needs, we tailor our maintenance programs to align with your specific requirements, minimizing downtime and maximizing efficiency." },
-      { heading: "Emergency Response", text: "In the dynamic world of industry, emergencies can arise at any time. PANSA GROUP OF COMPANIES N.V. stands ready with a rapid response team equipped to handle unforeseen situations swiftly and effectively." },
-      { heading: "Technology-Driven Solutions", text: "We leverage the latest technologies, including predictive analytics and condition monitoring, to identify potential issues before they become critical, saving time and resources." },
-      { heading: "Compliance and Safety", text: "PANSA GROUP OF COMPANIES N.V. is dedicated to upholding the highest standards of safety and compliance, ensuring that all maintenance activities adhere to industry regulations and best practices." },
+      { heading: "Comprehensive Maintenance Solutions", text: "Our industrial maintenance services are designed to proactively address the unique challenges of your equipment and infrastructure. From routine inspections to predictive maintenance strategies, we employ cutting-edge technologies and industry best practices to maximize the lifespan of your assets." },
+      { heading: "Plant Operation Excellence", text: "Achieving operational excellence is key to sustained success. PANSA GROUP OF COMPANIES N.V. partners with you to streamline and enhance your plant operations. We focus on optimizing processes, reducing downtime, and increasing overall efficiency to keep your operations running smoothly." },
+      { heading: "Customized Maintenance Programs", text: "Recognizing that every industry and facility has distinct needs, we tailor our maintenance programs to align with your specific requirements. Whether you operate in manufacturing, energy, or any other sector, our customized approach ensures that your assets are maintained at peak performance levels." },
+      { heading: "Emergency Response", text: "In the dynamic world of industry, emergencies can arise at any time. PANSA GROUP OF COMPANIES N.V. stands ready with a rapid response team equipped to handle unforeseen situations. Our 24/7 emergency services ensure minimal downtime and a swift resolution to any issues that may arise." },
+      { heading: "Technology-Driven Solutions", text: "We leverage the latest technologies, including predictive analytics and condition monitoring, to identify potential issues before they become critical. This proactive approach minimizes the risk of unplanned downtime, reduces maintenance costs, and enhances the overall reliability of your operations." },
+      { heading: "Compliance and Safety", text: "PANSA GROUP OF COMPANIES N.V. is dedicated to upholding the highest standards of safety and compliance. Our maintenance services are not only focused on performance but also on creating a secure work environment. We work in adherence to industry regulations and guidelines to safeguard your assets and personnel.\n\nPartner with PANSA GROUP OF COMPANIES N.V. for Industrial Maintenance and Plant Operation Services that go beyond expectations. Your success is our priority, and we are committed to ensuring that your industrial infrastructure operates at its peak, efficiently and safely." },
     ],
   },
   {

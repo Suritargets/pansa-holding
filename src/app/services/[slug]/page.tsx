@@ -85,7 +85,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                         {section.heading}
                       </h3>
                       <div className="w-8 h-0.5 mb-3" style={{ backgroundColor: "#7f9e28" }} />
-                      <p className="text-gray-600 text-sm leading-relaxed">{section.text}</p>
+                      <div className="space-y-3">
+                        {section.text.split("\n\n").map((p, pi) => (
+                          <p key={pi} className="text-gray-600 text-sm leading-relaxed">{p}</p>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>
