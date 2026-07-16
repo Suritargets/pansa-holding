@@ -28,7 +28,7 @@ const certGallery = [
   `${BASE2}sbb-certificaat-erkend-leerbedrijf2-scaled.jpg`,
 ];
 
-const accordions = [
+const accordions: { title: string; items?: string[]; content?: string; intro?: string }[] = [
   {
     title: "Personnel Competency Development",
     items: [
