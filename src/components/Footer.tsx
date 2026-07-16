@@ -80,15 +80,17 @@ export default function Footer() {
               {/* Social icons */}
               <div className="flex gap-3 pt-2">
                 {[
-                  { label: "f", title: "Facebook" },
-                  { label: "t", title: "Twitter" },
-                  { label: "in", title: "Instagram" },
-                  { label: "li", title: "LinkedIn" },
+                  { label: "f", title: "Facebook", href: "https://www.facebook.com/pansagroup/" },
+                  { label: "t", title: "Twitter", href: "#" },
+                  { label: "in", title: "Instagram", href: "#" },
+                  { label: "li", title: "LinkedIn", href: "#" },
                 ].map((s) => (
                   <a
                     key={s.title}
-                    href="#"
+                    href={s.href}
                     title={s.title}
+                    target={s.href !== "#" ? "_blank" : undefined}
+                    rel={s.href !== "#" ? "noopener noreferrer" : undefined}
                     className="w-8 h-8 flex items-center justify-center text-xs font-bold text-white hover:text-white transition-colors border border-white/20 hover:border-white/60"
                   >
                     {s.label}
