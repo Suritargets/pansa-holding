@@ -10,10 +10,10 @@ const col1 = [
 ];
 
 const col2 = [
-  { label: "About Pansa Machine Shop N.V.", href: "#" },
-  { label: "How we work", href: "#" },
-  { label: "Services & Products", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "About Pansa Machine Shop N.V.", href: "https://pansa-machinery.vercel.app/about-us", external: true },
+  { label: "How we work", href: "https://pansa-machinery.vercel.app/how-we-work", external: true },
+  { label: "Services & Products", href: "https://pansa-machinery.vercel.app/services-products", external: true },
+  { label: "Contact", href: "https://pansa-machinery.vercel.app/contact-us", external: true },
 ];
 
 const col3 = [
@@ -24,7 +24,7 @@ const col3 = [
   { label: "Contact", href: "#" },
 ];
 
-function FooterCol({ title, links }: { title: string; links: { label: string; href: string }[] }) {
+function FooterCol({ title, links }: { title: string; links: { label: string; href: string; external?: boolean }[] }) {
   return (
     <div>
       <h4 className="font-bold text-xs uppercase tracking-widest text-white mb-3">{title}</h4>
@@ -32,10 +32,17 @@ function FooterCol({ title, links }: { title: string; links: { label: string; hr
       <ul className="space-y-2">
         {links.map((l) => (
           <li key={l.label}>
-            <Link href={l.href} className="text-gray-400 text-sm hover:text-white transition-colors flex items-center gap-1.5">
-              <span className="text-[10px]" style={{ color: "#7f9e28" }}>›</span>
-              {l.label}
-            </Link>
+            {l.external ? (
+              <a href={l.href} target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-white transition-colors flex items-center gap-1.5">
+                <span className="text-[10px]" style={{ color: "#7f9e28" }}>›</span>
+                {l.label}
+              </a>
+            ) : (
+              <Link href={l.href} className="text-gray-400 text-sm hover:text-white transition-colors flex items-center gap-1.5">
+                <span className="text-[10px]" style={{ color: "#7f9e28" }}>›</span>
+                {l.label}
+              </Link>
+            )}
           </li>
         ))}
       </ul>
