@@ -17,11 +17,11 @@ const col2 = [
 ];
 
 const col3 = [
-  { label: "About CCC H. Pansa & Sons N.V.", href: "#" },
-  { label: "Services", href: "#" },
-  { label: "Training", href: "#" },
-  { label: "Application registration", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "About CCC H. Pansa & Sons N.V.", href: "https://hpsnv-website.vercel.app/about-us", external: true },
+  { label: "Services", href: "https://hpsnv-website.vercel.app/services", external: true },
+  { label: "Training", href: "https://hpsnv-website.vercel.app/training", external: true },
+  { label: "Application registration", href: "https://hpsnv-website.vercel.app/application-registration", external: true },
+  { label: "Contact", href: "https://hpsnv-website.vercel.app/contact", external: true },
 ];
 
 function FooterCol({ title, links }: { title: string; links: { label: string; href: string; external?: boolean }[] }) {
