@@ -83,7 +83,7 @@ export default function Footer() {
                   { label: "f", title: "Facebook", href: "https://www.facebook.com/pansagroup/" },
                   { label: "t", title: "Twitter", href: "#" },
                   { label: "in", title: "Instagram", href: "#" },
-                  { label: "li", title: "LinkedIn", href: "#" },
+                  { label: "li", title: "LinkedIn", href: "https://www.linkedin.com/company/40653366/" },
                 ].map((s) => (
                   <a
                     key={s.title}
