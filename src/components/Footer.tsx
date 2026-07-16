@@ -1,11 +1,12 @@
 ﻿import Image from "next/image";
+import Link from "next/link";
 
 const col1 = [
-  { label: "About Pansa Group of Companies N.V.", href: "#about" },
-  { label: "How we work", href: "#how-we-work" },
-  { label: "Sustainability", href: "#sustainability" },
-  { label: "Events", href: "#events" },
-  { label: "Contact", href: "#contact" },
+  { label: "About Pansa Group of Companies N.V.", href: "/about" },
+  { label: "How we work", href: "/how-we-work" },
+  { label: "Sustainability", href: "/sustainability" },
+  { label: "Events", href: "/events" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const col2 = [
@@ -31,10 +32,10 @@ function FooterCol({ title, links }: { title: string; links: { label: string; hr
       <ul className="space-y-2">
         {links.map((l) => (
           <li key={l.label}>
-            <a href={l.href} className="text-gray-400 text-sm hover:text-white transition-colors flex items-center gap-1.5">
+            <Link href={l.href} className="text-gray-400 text-sm hover:text-white transition-colors flex items-center gap-1.5">
               <span className="text-[10px]" style={{ color: "#7f9e28" }}>›</span>
               {l.label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
