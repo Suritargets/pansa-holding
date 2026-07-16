@@ -84,6 +84,7 @@ export default function Footer() {
                   { label: "t", title: "Twitter", href: "#" },
                   { label: "in", title: "Instagram", href: "#" },
                   { label: "li", title: "LinkedIn", href: "https://www.linkedin.com/company/40653366/" },
+                  { label: "yt", title: "YouTube", href: "https://www.youtube.com/channel/UClIVqfD71jK_1Uk63Rt3I7Q/featured" },
                 ].map((s) => (
                   <a
                     key={s.title}
