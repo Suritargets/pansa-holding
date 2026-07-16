@@ -81,8 +81,7 @@ export default function Footer() {
               <div className="flex gap-3 pt-2">
                 {[
                   { label: "f", title: "Facebook", href: "https://www.facebook.com/pansagroup/" },
-                  { label: "t", title: "Twitter", href: "#" },
-                  { label: "in", title: "Instagram", href: "https://www.instagram.com/pansaholding/" },
+{ label: "in", title: "Instagram", href: "https://www.instagram.com/pansaholding/" },
                   { label: "li", title: "LinkedIn", href: "https://www.linkedin.com/company/40653366/" },
                   { label: "yt", title: "YouTube", href: "https://www.youtube.com/channel/UClIVqfD71jK_1Uk63Rt3I7Q/featured" },
                 ].map((s) => (
