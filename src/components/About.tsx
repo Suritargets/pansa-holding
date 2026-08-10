@@ -44,8 +44,7 @@ export default function About() {
             <div className="w-12 h-1 mb-5" style={{ backgroundColor: "#7f9e28" }} />
             <p className="text-gray-600 text-sm leading-relaxed mb-8 flex-1">
               Pansa Group of Companies N.V. is a diversified, innovative and dynamic
-              holding company, consisting of <strong>Pansa Machine Shop N.V.</strong> (A.S.M.E. S &amp; U Stamp,
-              NBIC R, VR, TO &amp; NB Stamp, SBB Certified), <strong>Commercial Contracting Company H.
+              holding company, consisting of <strong>Pansa Machine Shop N.V.</strong> (SBB Certified), <strong>Commercial Contracting Company H.
               Pansa &amp; Sons N.V.</strong> (ISO 9001 and ISO 14001, Alcoa Certified) and the{" "}
               <strong>Pansa Industries N.V.</strong>
             </p>

@@ -156,7 +156,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="w-12 h-1 mb-6" style={{ backgroundColor: "#7f9e28" }} />
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                  Pansa Group of Companies N.V. is a diversified, innovative and dynamic holding company, consisting of <strong>Pansa Machine Shop N.V.</strong> (A.S.M.E. S &amp; U Stamp, NBIC R, VR, TO &amp; NB Stamp, SBB Certified), <strong>Commercial Contracting Company H. Pansa &amp; Sons N.V.</strong> (ISO 9001 and ISO 14001, Alcoa Certified) and the <strong>Pansa Industries N.V.</strong>
+                  Pansa Group of Companies N.V. is a diversified, innovative and dynamic holding company, consisting of <strong>Pansa Machine Shop N.V.</strong> (SBB Certified), <strong>Commercial Contracting Company H. Pansa &amp; Sons N.V.</strong> (ISO 9001 and ISO 14001, Alcoa Certified) and the <strong>Pansa Industries N.V.</strong>
                 </p>
                 {/* Years badge */}
                 <div className="inline-flex items-center gap-4 border border-gray-200 px-5 py-3">
@@ -246,7 +246,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="w-12 h-1 mb-6" style={{ backgroundColor: "#7f9e28" }} />
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Pansa Group of Companies N.V. is a diversified, innovative and dynamic holding company, consisting of Pansa Machine Shop N.V. (A.S.M.E. S &amp; U Stamp, NBIC R, VR, TO &amp; NB Stamp, SBB Certified), Commercial Contracting Company H. Pansa &amp; Sons N.V. (ISO 9001 and ISO 14001, Alcoa Certified) and the Pansa Industries N.V. with a track record of more than 40 years in the industry.
+                  Pansa Group of Companies N.V. is a diversified, innovative and dynamic holding company, consisting of Pansa Machine Shop N.V. (SBB Certified), Commercial Contracting Company H. Pansa &amp; Sons N.V. (ISO 9001 and ISO 14001, Alcoa Certified) and the Pansa Industries N.V. with a track record of more than 40 years in the industry.
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
                   The Pansa Group is specialized in manufacturing, engineering, procurement, construction, fabrication, industrial &amp; human resource services and development, with more than 300 highly qualified employees. Pansa Group is currently the best one stop window to provide human resource services and support of your industrial development projects in oil &amp; gas, mining, food processing, agriculture and energy sectors in Suriname &amp; the region.
