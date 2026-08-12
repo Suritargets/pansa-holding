@@ -35,6 +35,39 @@ const recentPosts = [
 
 const categories = ["Visits", "Sustainability", "Roadshow", "Events"];
 
+const globalCompactPrinciples = [
+  {
+    title: "Mensenrechten",
+    items: [
+      "Principe 1: Bedrijven dienen de bescherming van internationaal erkende mensenrechten te ondersteunen en te respecteren; en",
+      "Principe 2: ervoor zorgen dat ze niet medeplichtig zijn aan mensenrechtenschendingen.",
+    ],
+  },
+  {
+    title: "Werk",
+    items: [
+      "Principe 3: Bedrijven dienen de vrijheid van vereniging en de daadwerkelijke erkenning van het recht op collectieve onderhandelingen te waarborgen;",
+      "Principe 4: de uitbanning van alle vormen van dwangarbeid;",
+      "Principe 5: de effectieve afschaffing van kinderarbeid; en",
+      "Principe 6: het uitbannen van discriminatie op het gebied van werk en beroep.",
+    ],
+  },
+  {
+    title: "Omgeving",
+    items: [
+      "Principe 7: Bedrijven dienen een voorzorg benadering te hanteren ten aanzien van milieuproblemen;",
+      "Principe 8: initiatieven nemen om een grotere milieuverantwoordelijkheid te bevorderen;",
+      "Principe 9: Stimuleer de ontwikkeling en verspreiding van milieuvriendelijke technologieën.",
+    ],
+  },
+  {
+    title: "Anticorruptie",
+    items: [
+      "Principe 10: Bedrijven moeten corruptie in al haar vormen bestrijden, inclusief afpersing en omkoping.",
+    ],
+  },
+];
+
 export default function SustainabilityPage() {
   return (
     <>
@@ -122,6 +155,42 @@ export default function SustainabilityPage() {
                       </li>
                     ))}
                   </ul>
+                </div>
+
+                {/* UN Global Compact - Ten Principles */}
+                <div className="mt-10 mb-6">
+                  <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "#32592d" }}>
+                    De Tien Principes van het Global Compact van de Verenigde Naties
+                  </p>
+                  <p className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#7f9e28" }}>
+                    The Ten Principles of the UN Global Compact
+                  </p>
+                  <div className="space-y-4 text-sm text-gray-600 leading-relaxed mb-6">
+                    <p>
+                      De tien principes van het Global Compact van de Verenigde Naties zijn afgeleid van: de
+                      Universele Verklaring van de Rechten van de Mens, de Verklaring van de Internationale
+                      Arbeidsorganisatie over de Fundamentele Principes en Rechten op het Werk, de
+                      Rio-verklaring inzake Milieu en Ontwikkeling en het VN-Verdrag tegen Corruptie.
+                    </p>
+                  </div>
+                  <div className="space-y-6">
+                    {globalCompactPrinciples.map((group, gi) => (
+                      <div key={gi}>
+                        <h3 className="font-bold text-sm uppercase mb-2" style={{ color: "#32592d" }}>
+                          {group.title}
+                        </h3>
+                        <div className="w-8 h-0.5 mb-3" style={{ backgroundColor: "#7f9e28" }} />
+                        <ul className="space-y-2">
+                          {group.items.map((item, ii) => (
+                            <li key={ii} className="flex items-start gap-2 text-sm text-gray-600">
+                              <span className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: "#7f9e28" }} />
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Latest Blog */}

@@ -13,7 +13,7 @@
           <source src="https://pansaholding.com/wp-content/uploads/2023/10/intro-website_1.mp4" type="video/mp4" />
         </video>
         {/* Dark green overlay */}
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(42, 62, 15, 0.82)" }} />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(42, 62, 15, 0.55)" }} />
       </div>
 
       {/* Content - centered */}

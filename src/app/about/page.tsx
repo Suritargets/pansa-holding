@@ -83,13 +83,6 @@ const coreValues = [
   },
 ];
 
-const team = [
-  { name: "Rogerio Boda", role: "Petrol Leader", photo: `${BASE}bearded-machine-operator-posing-for-photography-ZXF4DY3.jpg` },
-  { name: "Kay Cunningham", role: "Petrol Handler", photo: `${BASE}professional-young-industrial-factory-woman-employ-BAG2MGU.jpg` },
-  { name: "Juanita Javier", role: "Petrol Manager", photo: `${BASE}african-american-elderly-woman-worker-in-industria-C7W38XZ.jpg` },
-  { name: "Fabricio Malo", role: "Petrol Operator", photo: `${BASE}joyful-male-engineer-standing-by-tractor-at-factor-B54T3VP.jpg` },
-];
-
 function CircularProgress({ pct, label }: { pct: number; label: string }) {
   const [val, setVal] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
@@ -219,8 +212,8 @@ export default function AboutPage() {
 
               {/* Left: stacked photos */}
               <div className="space-y-4">
-                <div className="relative w-full overflow-hidden" style={{ height: "220px" }}>
-                  <Image src={`${BASE}a1-circle.jpeg`} alt="CEO Maurino Pansa" fill className="object-cover object-top" unoptimized />
+                <div className="relative w-full overflow-hidden" style={{ height: "220px", backgroundColor: "#f5f5f5" }}>
+                  <Image src={`${BASE}a1-circle.jpeg`} alt="CEO Maurino Pansa" fill className="object-contain" unoptimized />
                 </div>
                 <div className="relative w-full overflow-hidden" style={{ height: "180px" }}>
                   <Image src={`${BASE}Picture1.jpg`} alt="Pansa Facilities" fill className="object-cover" unoptimized />
@@ -251,7 +244,7 @@ export default function AboutPage() {
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
                   The Pansa Group is specialized in manufacturing, engineering, procurement, construction, fabrication, industrial &amp; human resource services and development, with more than 300 highly qualified employees. Pansa Group is currently the best one stop window to provide human resource services and support of your industrial development projects in oil &amp; gas, mining, food processing, agriculture and energy sectors in Suriname &amp; the region.
                 </p>
-                <p className="font-bold text-sm mb-6" style={{ color: "#7f9e28" }}>â†’ CEO MAURINO PANSA â†’</p>
+                <p className="font-bold text-sm mb-6" style={{ color: "#7f9e28" }}>→ CEO MAURINO PANSA →</p>
 
                 {/* Facilities accordion-style */}
                 <div className="border-t border-gray-200 pt-5 mb-4">
@@ -260,11 +253,11 @@ export default function AboutPage() {
                     <span style={{ color: "#7f9e28" }}>&#8250;</span>
                   </div>
                   <p className="text-gray-500 text-xs leading-relaxed">
-                    To accommodate our vision, mission and core values, the Pansa Group of Company has two separate modern buildings. The main office, CCCHPS N.V., houses the human resource and finance departments, the meeting and training rooms. The PMS building consists of an ASME and NBIC certified state of the art Machine Shop and workshop area of approximately 2500 mÂ², with a 10 ton and a 5 ton overhead crane.
+                    To accommodate our vision, mission and core values, the Pansa Group of Company has two separate modern buildings. The main office, CCCHPS N.V., houses the human resource and finance departments, the meeting and training rooms. The PMS building consists of an ASME and NBIC certified state of the art Machine Shop and workshop area of approximately 2500 m², with a 10 ton and a 5 ton overhead crane.
                   </p>
                 </div>
                 <a href="#history" className="inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wider" style={{ color: "#7f9e28" }}>
-                  â†’ Company History
+                  → Company History
                 </a>
               </div>
             </div>
@@ -341,30 +334,6 @@ export default function AboutPage() {
               <p>In 1989 the company expanded its services to the Suralco Alumina Refinery with industrial cleaning and manpower. In 1998 after the retirement of the founder, Mr. Maurino Pansa assumed management, certified and diversified the company by adding several other services such as industrial and mechanical maintenance, fabrication and welding.</p>
               <p>In 2008, the Pansa Group embarked on a major restructuring program with the objective of becoming the key provider of industrial engineered services geared towards the Surinamese and regional industries. Our long term vision was predicated on the significant natural and human resources and the low risk of conducting business in the region.</p>
               <p>Thanks to years of experience, expertise and diversification in the industrial service nationally and internationally, the Pansa Group is an innovative and dynamic group of companies that continues to grow and achieve their success in providing a wide range of services to the total Surinamese Industry and the region.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Meet Our Team */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center mb-12">
-              <p className="font-bold text-xs uppercase tracking-widest mb-3" style={{ color: "#7f9e28" }}>Our Team</p>
-              <h2 className="text-3xl font-bold uppercase" style={{ color: "#32592d" }}>Meet Our Team</h2>
-              <div className="w-16 h-1 mx-auto mt-4" style={{ backgroundColor: "#7f9e28" }} />
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {team.map((m, i) => (
-                <div key={i} className="bg-white text-center overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-                  <div className="relative" style={{ height: "240px" }}>
-                    <Image src={m.photo} alt={m.name} fill className="object-cover object-top" unoptimized />
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-bold text-sm uppercase" style={{ color: "#32592d" }}>{m.name}</h3>
-                    <p className="text-xs mt-1" style={{ color: "#7f9e28" }}>{m.role}</p>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </section>

@@ -79,7 +79,7 @@ export default function About() {
                 separate...
               </p>
               <a href="#" className="inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wide" style={{ color: "#7f9e28" }}>
-                Learn More &nbsp;â†’
+                Learn More &nbsp;→
               </a>
             </div>
 
@@ -98,7 +98,7 @@ export default function About() {
                 founded in 1975 ...
               </p>
               <a href="#" className="inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wide" style={{ color: "#8fb030" }}>
-                Learn More &nbsp;â†’
+                Learn More &nbsp;→
               </a>
             </div>
           </div>
