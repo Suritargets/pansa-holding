@@ -18,11 +18,6 @@ const carouselImages = [
 ];
 
 const certGallery = [
-  `${BASE2}3.png`,
-  `${BASE2}4.png`,
-  `${BASE2}a-scaled.jpg`,
-  `${BASE2}b-768x1086-1.jpg`,
-  `${BASE2}Picture1-1.jpg`,
   `${BASE2}sbb-certificaat-erkend-leerbedrijf2-scaled.jpg`,
 ];
 
@@ -37,14 +32,14 @@ const accordions: { title: string; items?: string[]; content?: string; intro?: s
     ],
   },
   {
-    title: "Standards & Certifications",
-    intro: "Our business model of industrial development, services, maintenance & manufacturing is developed and maintained through:",
+    title: "Business Model",
+    intro: "Our business model for human resource and industrial maintenance services and products is developed and maintained through:",
     items: [
-      "Alliance with strategic business partners worldwide",
-      "Strong institutional structure through personnel competency development",
-      "Integration of technology and continuous improvement by innovation",
-      "Implementing international quality standards to obtain qualifications and certifications e.g.:",
-      "A.S.M.E. standards, N.B.I. standards, A.P.I. standards (Authorized by Hartford Steam Boiler inspection & insurance company)",
+      "Alliance with strategic partners locally and worldwide",
+      "Sustainable development goals",
+      "Strong institutional structure through the development of personnel competencies and talents, social and cultural engagement for continuous improvement",
+      "Integration of technology and application of an authentic and holistic eco-design thinking method for sustainable human resource, industrial and social development and eco-innovation",
+      "Implementation of international quality standards to obtain qualifications and certifications, e.g.:",
       "ISO 9001: 2015, ISO 14001: 2015 (Authorized by KIWA)",
     ],
   },

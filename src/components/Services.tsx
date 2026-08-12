@@ -14,7 +14,7 @@ const row2 = [
 
 const row3 = [
   { image: `${BASE}s7.jpg`, title: "Technical Vocational Training & Qualification", description: "Quality technical vocational training and demand-driven programs & Qualification (ASME, AWS, API, NIL, SBB, CANTA-CVQ, VCA)...", href: "/services/technical-vocational-training" },
-  { image: `${BASE}s8.jpg`, title: "Occupational Health Safety, Environment & Quality", description: "Pansa Group of Companies is committed to work according to the Health, Safety and Environmental standards, policies and regulations. Injuries occurring during...", href: "/services/health-safety-environment" },
+  { image: `${BASE}s8.jpg`, title: "Occupational Health Safety, Environment & Quality", description: "Pansa Group of Companies is committed to work according to the Occupational Health Safety, Environment & Quality standards, policies and regulations. Injuries occurring during...", href: "/services/health-safety-environment" },
 ];
 
 const counters = [
