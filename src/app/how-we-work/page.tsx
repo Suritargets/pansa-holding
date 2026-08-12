@@ -20,8 +20,6 @@ const carouselImages = [
 const certGallery = [
   `${BASE2}3.png`,
   `${BASE2}4.png`,
-  `${BASE2}5-768x1086-1.png`,
-  `${BASE2}6.png`,
   `${BASE2}a-scaled.jpg`,
   `${BASE2}b-768x1086-1.jpg`,
   `${BASE2}Picture1-1.jpg`,

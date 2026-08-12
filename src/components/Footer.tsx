@@ -69,7 +69,7 @@ export default function Footer() {
             <div className="space-y-4 text-sm text-gray-400">
               <div>
                 <div className="font-bold text-xs uppercase text-gray-300 mb-1 tracking-widest">Office</div>
-                <p className="leading-relaxed">Martin Luther King Highway km 23<br />Para - Suriname (South - America)</p>
+                <p className="leading-relaxed">Martin Luther Kingweg km 23<br />Para - Suriname (South - America)</p>
               </div>
               <div>
                 <div className="font-bold text-xs uppercase text-gray-300 mb-1 tracking-widest">Support</div>
@@ -112,11 +112,11 @@ export default function Footer() {
             <div className="text-gray-400 text-sm space-y-3">
               <div>
                 <div className="font-semibold text-xs text-gray-300 uppercase tracking-widest mb-1">Phone</div>
-                <div>323451 | 343613 | 343352</div>
+                <div>323451</div>
               </div>
               <div>
                 <div className="font-semibold text-xs text-gray-300 uppercase tracking-widest mb-1">Mobile</div>
-                <div>(+597) 7698047</div>
+                <div>(+597) 7698051</div>
                 <div>(+597) 7698050</div>
               </div>
             </div>

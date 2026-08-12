@@ -42,7 +42,7 @@ export default function Contact() {
                     </svg>
                   ),
                   label: "Address",
-                  content: "Martin Luther King Highway km 23\nPara - Suriname (South America)",
+                  content: "Martin Luther Kingweg km 23\nPara - Suriname (South America)",
                 },
                 {
                   icon: (
@@ -51,7 +51,7 @@ export default function Contact() {
                     </svg>
                   ),
                   label: "Phone",
-                  content: "323451 | 343613 | 343352\n(+597) 7698047 | (+597) 7698050",
+                  content: "323451\n(+597) 7698051 | (+597) 7698050",
                 },
                 {
                   icon: (
@@ -69,7 +69,7 @@ export default function Contact() {
                     </svg>
                   ),
                   label: "Office Hours",
-                  content: "Mon-Fri, 9:00 am - 5:00 pm",
+                  content: "Mon-Fri, 8:00 am - 4:00 pm",
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
