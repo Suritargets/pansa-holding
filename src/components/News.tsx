@@ -1,35 +1,6 @@
 ﻿import Image from "next/image";
-
-const newsItems = [
-  {
-    image: "https://pansaholding.com/wp-content/uploads/2023/11/1-1024x575-1-1.jpg",
-    date: "03 November 2023",
-    category: "Events",
-    title: "Pansa Road Show August 2017",
-    excerpt: "The Pansa Group of Companies N.V. developed a road show to present our services and capabilities to potential partners and clients across the region.",
-  },
-  {
-    image: "https://pansaholding.com/wp-content/uploads/2023/11/WhatsApp-Image-2019-06-18-at-12.38.52-1024x680-1.jpeg",
-    date: "03 November 2023",
-    category: "Events",
-    title: "Suripop",
-    excerpt: "In light of fostering community spirit and cultural engagement, Pansa Group proudly participated in Suripop, supporting local talent and culture.",
-  },
-  {
-    image: "https://pansaholding.com/wp-content/uploads/2023/11/DSC_7544-1024x678-1.jpg",
-    date: "03 November 2023",
-    category: "Events",
-    title: "National Fair of Suriname 2018",
-    excerpt: "The purpose of the company participating in the National Fair was to showcase our capabilities, certifications and introduce ourselves to a wider audience.",
-  },
-  {
-    image: "https://pansaholding.com/wp-content/uploads/2023/11/DSC05214-1024x575-1.jpg",
-    date: "03 November 2023",
-    category: "Events",
-    title: "School visit from LBO George A. Kort school",
-    excerpt: "The mechanical engineering students from the secondary technical school visited our facilities to learn about real-world industrial applications.",
-  },
-];
+import Link from "next/link";
+import { newsItems } from "@/data/news";
 
 export default function News() {
   return (
@@ -46,8 +17,8 @@ export default function News() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {newsItems.map((item, i) => (
-            <article key={i} className="bg-white shadow-sm hover:shadow-md transition-shadow group">
+          {newsItems.map((item) => (
+            <article key={item.slug} className="bg-white shadow-sm hover:shadow-md transition-shadow group">
               <div className="relative overflow-hidden" style={{ height: "200px" }}>
                 <Image
                   src={item.image}
@@ -73,8 +44,8 @@ export default function News() {
                 <p className="text-gray-500 text-xs leading-relaxed mb-4 line-clamp-3">
                   {item.excerpt}
                 </p>
-                <a
-                  href="#"
+                <Link
+                  href={`/news/${item.slug}`}
                   className="inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wide hover:gap-2 transition-all"
                   style={{ color: "#7f9e28" }}
                 >
@@ -82,7 +53,7 @@ export default function News() {
                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </article>
           ))}
