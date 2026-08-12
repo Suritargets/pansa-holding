@@ -81,8 +81,8 @@ export const services: Service[] = [
   },
   {
     slug: "health-safety-environment",
-    shortTitle: "Health, Safety, Environment",
-    title: "Health, Safety, Environment",
+    shortTitle: "Occupational Health Safety, Environment & Quality",
+    title: "Occupational Health Safety, Environment & Quality",
     image: `${BASE}s8.jpg`,
     intro: "Pansa Group of Companies is committed to work according to the Health, Safety and Environmental standards, policies and regulations. Injuries occurring during our work are preventable when the work is well planned and safety policies and rules are followed.\n\nAt PANSA GROUP OF COMPANIES N.V., we recognize that a commitment to Health, Safety, and Environment (HSE) is not only a legal and ethical obligation but a fundamental aspect of sustainable business practices. Our comprehensive HSE solutions are designed to safeguard your workforce, protect the environment, and ensure compliance with the highest industry standards.",
     bullets: [

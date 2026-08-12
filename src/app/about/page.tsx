@@ -55,7 +55,7 @@ const coreValues = [
     ),
   },
   {
-    title: "Health, Safety & Environment",
+    title: "Occupational Health Safety, Environment & Quality",
     text: "We work safely, promote wellness and protect the environment in all our operations and activities.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>

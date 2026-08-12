@@ -95,7 +95,7 @@
                   { label: "Industrial Maintenance and Plant Operation Services", href: "/services/industrial-maintenance" },
                   { label: "Human Resource Services", href: "/services/human-resource-services" },
                   { label: "Technical Vocational Training & Qualification", href: "/services/technical-vocational-training" },
-                  { label: "Health, Safety, Environment", href: "/services/health-safety-environment" },
+                  { label: "Occupational Health Safety, Environment & Quality", href: "/services/health-safety-environment" },
                   { label: "Manufacturing, Repair and Alteration of Power Boilers & Pressure Vessels", href: "/services/power-boilers-pressure-vessels" },
                   { label: "Fabrication of Steel Construction, Storage Tanks, Silo's, Cyclones", href: "/services/steel-fabrication" },
                   { label: "Engineering, Procurement, Construction & Maintenance", href: "/services/engineering-procurement" },

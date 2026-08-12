@@ -140,7 +140,7 @@ export default function Contact() {
                   <option>Engineering, Procurement & Construction</option>
                   <option>Fabrication of Steel Construction</option>
                   <option>Human Resource Services</option>
-                  <option>Health, Safety, Environment</option>
+                  <option>Occupational Health Safety, Environment & Quality</option>
                   <option>Industrial Maintenance</option>
                   <option>Power Boilers & Pressure Vessels</option>
                   <option>Technical Vocational Training</option>

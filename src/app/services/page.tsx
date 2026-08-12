@@ -28,7 +28,7 @@ const services = [
     style: "light",
   },
   {
-    title: "Health, Safety, Environment",
+    title: "Occupational Health Safety, Environment & Quality",
     description: "Prioritize safety and environmental compliance with our specialized services to safeguard your operations.",
     image: `${BASE}s8.jpg`,
     href: "/services/health-safety-environment",

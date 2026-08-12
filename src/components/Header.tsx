@@ -7,7 +7,7 @@ import Link from "next/link";
 const serviceLinks = [
   { label: "Engineering, Procurement, Construction & Maintenance", href: "/services/engineering-procurement" },
   { label: "Fabrication of Steel Construction, Storage Tanks, Silo's, Cyclones", href: "/services/steel-fabrication" },
-  { label: "Health, Safety, Environment", href: "/services/health-safety-environment" },
+  { label: "Occupational Health Safety, Environment & Quality", href: "/services/health-safety-environment" },
   { label: "Human Resource Services", href: "/services/human-resource-services" },
   { label: "Industrial Maintenance and Plant Operation Services", href: "/services/industrial-maintenance" },
   { label: "Manufacturing, Repair and Alteration of Power Boilers & Pressure Vessels", href: "/services/power-boilers-pressure-vessels" },

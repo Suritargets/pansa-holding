@@ -31,7 +31,7 @@ const accordions: { title: string; items?: string[]; content?: string; intro?: s
     title: "Personnel Competency Development",
     items: [
       "ISO 9001:2015 and ISO 14001:2015 training program",
-      "Health Safety & Environment training program",
+      "Occupational Health Safety, Environment & Quality training program",
       "Welding, Machining and Mechanical training program",
       "Electrical, Instrumentation and Valve maintenance and repair training program",
     ],
