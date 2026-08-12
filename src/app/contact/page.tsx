@@ -121,7 +121,7 @@ export default function ContactPage() {
                   <h4 className="font-bold uppercase text-sm mb-2">Our Phone</h4>
                   <p className="text-xs text-white/80 leading-relaxed">
                     Office hours from: 8.00 - 16.00<br />
-                    323451<br />
+                    (+597) 323451<br />
                     (+597) 7698051/(+597) 7698050
                   </p>
                 </div>

@@ -37,33 +37,33 @@ const categories = ["Visits", "Sustainability", "Roadshow", "Events"];
 
 const globalCompactPrinciples = [
   {
-    title: "Mensenrechten",
+    title: "Human Rights",
     items: [
-      "Principe 1: Bedrijven dienen de bescherming van internationaal erkende mensenrechten te ondersteunen en te respecteren; en",
-      "Principe 2: ervoor zorgen dat ze niet medeplichtig zijn aan mensenrechtenschendingen.",
+      "Principle 1: Businesses should support and respect the protection of internationally proclaimed human rights; and",
+      "Principle 2: make sure that they are not complicit in human rights abuses.",
     ],
   },
   {
-    title: "Werk",
+    title: "Labour",
     items: [
-      "Principe 3: Bedrijven dienen de vrijheid van vereniging en de daadwerkelijke erkenning van het recht op collectieve onderhandelingen te waarborgen;",
-      "Principe 4: de uitbanning van alle vormen van dwangarbeid;",
-      "Principe 5: de effectieve afschaffing van kinderarbeid; en",
-      "Principe 6: het uitbannen van discriminatie op het gebied van werk en beroep.",
+      "Principle 3: Businesses should uphold the freedom of association and the effective recognition of the right to collective bargaining;",
+      "Principle 4: the elimination of all forms of forced and compulsory labour;",
+      "Principle 5: the effective abolition of child labour; and",
+      "Principle 6: the elimination of discrimination in respect of employment and occupation.",
     ],
   },
   {
-    title: "Omgeving",
+    title: "Environment",
     items: [
-      "Principe 7: Bedrijven dienen een voorzorg benadering te hanteren ten aanzien van milieuproblemen;",
-      "Principe 8: initiatieven nemen om een grotere milieuverantwoordelijkheid te bevorderen;",
-      "Principe 9: Stimuleer de ontwikkeling en verspreiding van milieuvriendelijke technologieën.",
+      "Principle 7: Businesses should support a precautionary approach to environmental challenges;",
+      "Principle 8: undertake initiatives to promote greater environmental responsibility; and",
+      "Principle 9: encourage the development and diffusion of environmentally friendly technologies.",
     ],
   },
   {
-    title: "Anticorruptie",
+    title: "Anti-Corruption",
     items: [
-      "Principe 10: Bedrijven moeten corruptie in al haar vormen bestrijden, inclusief afpersing en omkoping.",
+      "Principle 10: Businesses should work against corruption in all its forms, including extortion and bribery.",
     ],
   },
 ];
@@ -159,18 +159,15 @@ export default function SustainabilityPage() {
 
                 {/* UN Global Compact - Ten Principles */}
                 <div className="mt-10 mb-6">
-                  <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "#32592d" }}>
-                    De Tien Principes van het Global Compact van de Verenigde Naties
-                  </p>
-                  <p className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#7f9e28" }}>
+                  <p className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#32592d" }}>
                     The Ten Principles of the UN Global Compact
                   </p>
                   <div className="space-y-4 text-sm text-gray-600 leading-relaxed mb-6">
                     <p>
-                      De tien principes van het Global Compact van de Verenigde Naties zijn afgeleid van: de
-                      Universele Verklaring van de Rechten van de Mens, de Verklaring van de Internationale
-                      Arbeidsorganisatie over de Fundamentele Principes en Rechten op het Werk, de
-                      Rio-verklaring inzake Milieu en Ontwikkeling en het VN-Verdrag tegen Corruptie.
+                      The Ten Principles of the United Nations Global Compact are derived from: the Universal
+                      Declaration of Human Rights, the International Labour Organization&apos;s Declaration on
+                      Fundamental Principles and Rights at Work, the Rio Declaration on Environment and
+                      Development, and the United Nations Convention Against Corruption.
                     </p>
                   </div>
                   <div className="space-y-6">

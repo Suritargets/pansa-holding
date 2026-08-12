@@ -18,6 +18,8 @@ const carouselImages = [
 ];
 
 const certGallery = [
+  "/certificates/kiwa-iso9001-en.png",
+  "/certificates/kiwa-iso14001-en.png",
   `${BASE2}sbb-certificaat-erkend-leerbedrijf2-scaled.jpg`,
 ];
 

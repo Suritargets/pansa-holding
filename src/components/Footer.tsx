@@ -175,7 +175,7 @@ export default function Footer() {
                   </svg>
                 }
               >
-                323451
+                (+597) 323451
               </InfoRow>
               <InfoRow
                 label="Mobile"

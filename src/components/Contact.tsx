@@ -51,7 +51,7 @@ export default function Contact() {
                     </svg>
                   ),
                   label: "Phone",
-                  content: "323451\n(+597) 7698051 | (+597) 7698050",
+                  content: "(+597) 323451\n(+597) 7698051 | (+597) 7698050",
                 },
                 {
                   icon: (
